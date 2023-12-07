@@ -1,0 +1,15 @@
+#container {
+  top: 300px;
+  left: 50px;
+  position: absolute;
+  display: flex;
+}
+#bar {
+  width: 400px;
+  height: 25px;
+  border: 1px solid black;
+}
+
+#progress {
+  height: 25px;
+}
