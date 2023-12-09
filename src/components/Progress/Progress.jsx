@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./Progress.css";
 
-const Progress = ({ progress, color }) => {
-  const [width, setWidth] = useState(progress ? progress : "50%");
-  const [background, setBackground] = useState(color ? color : "yellow");
+const Progress = ({ progress = "50%", color = "yellow" }) => {
+  const [width, setWidth] = useState(progress);
+  const [background, setBackground] = useState(color);
   const myStyle = { backgroundColor: background, width: width };
   return (
     <div id="container">
