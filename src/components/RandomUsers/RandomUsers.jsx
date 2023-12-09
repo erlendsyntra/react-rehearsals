@@ -3,7 +3,6 @@ import "./randomUsers.scss";
 
 const RandomUsers = () => {
   const [data, setData] = useState([]);
-  const [grid, setGrid] = useState("");
 
   useEffect(() => {
     const getData = async () => {
