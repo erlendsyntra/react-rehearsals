@@ -1,0 +1,14 @@
+#formContainer {
+  top: 300px;
+  left: 50px;
+  position: absolute;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+.disabled {
+  display: none;
+}
